@@ -38,7 +38,6 @@ npx knex migrate:make tabela_perfis
 
 npx knex migrate:latest
 npx knex migrate:rollback
-
 ```
 
 ### Comandos GraphQL
@@ -82,7 +81,6 @@ query {
     }
   
 }
-
 ```
 Mutations
 
@@ -116,7 +114,6 @@ Mutations
     ){
         id nome rotulo
 	}
-
 ```
 
 ```
@@ -168,7 +165,6 @@ Mutations
             nome rotulo
         }
     }
-
 ```
 
 
